@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; }
+
 body {
   margin: 0;
   padding: 50px;
@@ -5,3 +8,36 @@ body {
 
 a {
   color: #00b7ff; }
+
+.postContainer {
+  width: 400px;
+  display: flex;
+  margin-bottom: 30px;
+  flex-direction: column; }
+
+.postCreator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  border: thin solid #dfdcdc; }
+  .postCreator img {
+    border-radius: 45px;
+    margin: 10px;
+    width: 50px;
+    height: 50px; }
+
+.postPicture img {
+  width: 100%; }
+
+.fullPost {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row; }
+
+.postComments {
+  width: 300px;
+  padding: 25px;
+  height: 350px;
+  border: thin solid #dfdcdc; }
